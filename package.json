@@ -5,7 +5,8 @@
     "test": "web-test-runner \"src/**/*.test.ts\""
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "svelte": "^3.24.0",
+    "svelte-navigator": "^3.1.4"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
@@ -19,6 +20,8 @@
     "@types/snowpack-env": "^2.3.2",
     "@web/test-runner": "^0.12.0",
     "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.0",
     "snowpack": "^3.0.1",
     "svelte-preprocess": "^4.0.8",
     "ts-jest": "^26.4.4",

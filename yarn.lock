@@ -2002,6 +2002,11 @@ decompress-response@^6.0.0:
   dependencies:
     mimic-response "^3.1.0"
 
+dedent-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dedent-js/-/dedent-js-1.0.1.tgz#bee5fb7c9e727d85dffa24590d10ec1ab1255305"
+  integrity sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=
+
 deep-equal@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
@@ -3878,6 +3883,13 @@ log-update@^4.0.0:
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
 
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
+  integrity sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==
+  dependencies:
+    tslib "^2.0.3"
+
 lowercase-keys@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
@@ -4137,6 +4149,14 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
+  integrity sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
+  dependencies:
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
+
 node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
@@ -4384,6 +4404,14 @@ parseurl@^1.3.2:
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
+pascal-case@^3.1.1:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/pascal-case/-/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
+  integrity sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
@@ -4532,6 +4560,16 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier-plugin-svelte@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.1.0.tgz#61b930107cf4eb8bdae0e9d416e47fb36ee6b53c"
+  integrity sha512-AeGJWicKCU9CbPKj9Wzk7apdCJwB8gzFHOMMqJh1X4LiwkMLHUjjysowH+SZfHdg69Hjv5rw5M7uJn0WobFhRQ==
+
+prettier@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
 pretty-format@^26.0.0, pretty-format@^26.6.2:
   version "26.6.2"
@@ -5285,6 +5323,13 @@ svelte-hmr@^0.12.1:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.2.tgz#689df7681f0461e7a2539b3fad1336ee1da84751"
   integrity sha512-86fpj4Wjno7OREJsGxQwpVBtB3kmiKWwpOlvdZmfBZYankpL38lcVtAi1zvQXXcN4g8pRXUG68khwp6dYRwpYg==
 
+svelte-navigator@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/svelte-navigator/-/svelte-navigator-3.1.4.tgz#691bc5ebfaf7b729229e6b62f8a9cc60d7dfa70e"
+  integrity sha512-5yPH/fwOGhCZeOF8owdfsTCpDMjE7UagSz0AQ0ynwobI6xNbJISjhx0n2nlXfqrkYGPeuA3afiNJpsOn1pS88g==
+  dependencies:
+    svelte2tsx "^0.1.151"
+
 svelte-preprocess@^4.0.8, svelte-preprocess@^4.6.0:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.1.tgz#a7de4d91b32d5608b6637da960ee81e6089ae276"
@@ -5294,6 +5339,14 @@ svelte-preprocess@^4.0.8, svelte-preprocess@^4.6.0:
     "@types/sass" "^1.16.0"
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
+
+svelte2tsx@^0.1.151:
+  version "0.1.160"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.1.160.tgz#b47ddb7fdd703c5ad9c7e9c272933177db1b4cdb"
+  integrity sha512-W5aFMWmFOTUCuT3atWdxYSesMMYADHxOy5pqBZzxDVTGz5kW3dbiqXpN+2jHiO3VE0pSe47ajhePD6c9R2ucYA==
+  dependencies:
+    dedent-js "^1.0.1"
+    pascal-case "^3.1.1"
 
 svelte@^3.24.0:
   version "3.31.2"
@@ -5462,6 +5515,11 @@ ts-jest@^26.4.4:
     mkdirp "1.x"
     semver "7.x"
     yargs-parser "20.x"
+
+tslib@^2.0.3:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 tsscmp@1.0.6:
   version "1.0.6"

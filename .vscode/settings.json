@@ -1,0 +1,35 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "Datefield",
+    "Discarder",
+    "Hasura",
+    "Infostore",
+    "Inprogress",
+    "Kustomization",
+    "backnet",
+    "dedupe",
+    "emailextrecipients",
+    "frontnet",
+    "ipam",
+    "kubernetes",
+    "kustomize",
+    "netcetera",
+    "prepend",
+    "smarkovs",
+    "techisr",
+    "titrakk",
+    "traefik",
+    "urql",
+    "vserve",
+    "webis"
+  ]
+}
